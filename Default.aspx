@@ -20,6 +20,10 @@
                     <td><asp:TextBox ID="tb_Email" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
+                    <td>Asunto: </td>
+                    <td><asp:TextBox ID="tb_Asunto" runat="server"></asp:TextBox></td>
+                </tr>
+                <tr>
                     <td>Mensaje: </td>
                     <td><asp:TextBox ID="tb_Mensaje" runat="server"></asp:TextBox></td>
                 </tr>
