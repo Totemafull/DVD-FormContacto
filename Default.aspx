@@ -9,7 +9,29 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <asp:Panel ID="pnl_Formulario" runat="server">
+            <table>
+                <tr>
+                    <td>Nombre: </td>
+                    <td><asp:TextBox ID="tb_Nombre" runat="server"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td><asp:TextBox ID="tb_Email" runat="server"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td>Mensaje: </td>
+                    <td><asp:TextBox ID="tb_Mensaje" runat="server"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><asp:LinkButton id="btn_Enviar" runat="server" Text="Enviar"></asp:LinkButton></td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <asp:Panel ID="pnl_Enviado" runat="server" Visible="false">
+            <asp:Label ID="lbl_Enviado" runat="server">Mensaje enviado exitosamente</asp:Label>
+        </asp:Panel>
     </div>
     </form>
 </body>
