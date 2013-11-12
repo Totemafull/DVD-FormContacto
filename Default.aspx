@@ -24,8 +24,33 @@
                     <td><asp:TextBox ID="tb_Asunto" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
-                    <td>Mensaje: </td>
-                    <td><asp:TextBox ID="tb_Mensaje" runat="server"></asp:TextBox></td>
+                    <td>Profesión:</td>
+                    <td>
+                    <asp:DropDownList ID="DD_Profesion" runat="server" AutoPostBack="true">
+                        <asp:ListItem Value="Estudiante" text="Estudiante"></asp:ListItem>
+                        <asp:ListItem Value="Empresario" text="Empresario"></asp:ListItem>
+                        <asp:ListItem Value="Abogado" text="Abogado"></asp:ListItem>
+                        <asp:ListItem Value="Médico" text="Médico"></asp:ListItem>
+                        <asp:ListItem Value="Arquitecto" text="Arquitecto"></asp:ListItem>
+                        <asp:ListItem Value="Economista" text="Economista"></asp:ListItem>
+                        <asp:ListItem Value="Psicologo" text="Psicologo"></asp:ListItem>
+                        <asp:ListItem Value="Agronomo" text="Agronomo"></asp:ListItem>
+                        <asp:ListItem Value="Químico" text="Químico"></asp:ListItem>
+                        <asp:ListItem Value="Periodista" text="Periodista"></asp:ListItem>
+                        <asp:ListItem Value="Sociologo" text="Sociologo"></asp:ListItem>
+                        <asp:ListItem Value="Ingeniero" text="Ingeniero"></asp:ListItem>
+                        <asp:ListItem Value="Biologo" text="Biologo"></asp:ListItem>
+                        <asp:ListItem Value="Fisico" text="Fisico"></asp:ListItem>
+                        <asp:ListItem Value="Politologo" text="Politologo"></asp:ListItem>
+                        <asp:ListItem Value="Otra" text="Otra"></asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:Label ID="lbl_Espec" runat="server" Visible="false" Text="Especifique cual: "></asp:Label>
+                    <asp:TextBox ID="tb_Otra" runat="server" Visible="false"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:middle">Mensaje: </td>
+                    <td><asp:TextBox ID="tb_Mensaje" TextMode="MultiLine" Height="100px" Width="300px" runat="server"></asp:TextBox></td>
                 </tr>
                 <tr>
                     <td></td>
