@@ -39,5 +39,7 @@ Partial Class Contacto
 
     Protected Sub btn_Enviar_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn_Enviar.Click
         Enviar(tb_Nombre.Text, "felipevanc@gmail.com", "Comentario_" & tb_Nombre.Text, tb_Mensaje.Text & "<br />" & tb_Email.Text & "<br />" & tb_Nacionalidad.Text & "<br /> nos conocio por: " & DD_Forma.SelectedValue)
+        pnl_Enviado.Visible = True
+        pnl_Formulario.Visible = False
     End Sub
 End Class

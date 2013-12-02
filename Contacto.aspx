@@ -363,12 +363,8 @@
         	
                 <img src="barrancasquilquihue/img/contacto.jpg" alt="Contacto BQ" />
             </div><!-- /.span 5-->
-       
-          </div><!-- /.row -->
 
-        <hr class="featurette-divider" />
-
-        <asp:Panel ID="pnl_Formulario" runat="server">
+            <asp:Panel ID="pnl_Formulario" runat="server">
             <table>
                 <tr>
                     <td>Nombre y Apellido: </td>
@@ -403,6 +399,15 @@
                 </tr>
             </table>
         </asp:Panel>
+        <asp:Panel ID="pnl_Enviado" runat="server" Visible="false">
+            <asp:Label ID="lbl_Enviado" runat="server">Gracias por contactarnos, le responderemos a la brevedad</asp:Label>
+        </asp:Panel>
+       
+          </div><!-- /.row -->
+
+        <hr class="featurette-divider" />
+
+        
 
         <footer style="text-align:center;">
             <h4 >Loteo Quilquihue  |  Manzana 26  |  Lote 13  |  Lolog  |  San Martín de los Andes  |  Neuquén |  Argentina  <br />
