@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin: 0;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #515355;
+  background-color: #ffffff;}
+
+/*---------------------*/
+
+.contenedor{
+	width:1024px;/*ancho fijo para centrar*/
+	background-color:#FFF;
+	text-align: left;     /* horizontal centering hack for IE */
+	height: 10em;       /*   required - desired height */
+	margin: 0 auto 0 auto;    /*    margenes costados automaticos  para centrar*/}
+	
+.barranav{
+	margin-top:4px;}
+	
+.slider{
+	height:278px;
+	width:934px;
+		border:#c1c2c2 solid 1px;
+	background-color:#e7e7e8;
+	margin-bottom:20px;
+	}
+
+.pie{
+	margin-top:10px;
+	padding-bottom:15px;}
+
+/*-------COLUMNAS inicio ----*/
+.modbanners{float:left; height:100%;}
+.col1{float:left; width:220px; }
+.col2{float:left; width:220px; margin-left:16px;}
+.col3{float:left; width:223px; margin-left:16px;}
+.col4{float:left; width:225px; margin-left:16px;}
+	
+/*---------- modulos -----------*/	
+.eventos{
+	width:222px;
+	height:374px;
+	border:#666 solid 1pz;
+	background-color:#d5d1d1;
+	}
+
+.tit_evento{
+	padding:5px 5px 3px 9px;
+	border-bottom:#27779b solid 1px;
+	background-color:#e6e7e8;}
+	
+.txt_evento{
+	padding:9px;
+	border-bottom:#27779b solid 1px;}	
+	
+.infopacientes{
+	width:222px;
+	height:374px;
+	border:#666 solid 1pz;
+	background-color:#e6e7e8;
+	}
+	
+.tit_infopacientes{
+	padding:5px 5px 3px 9px;
+	border-bottom:#27779b solid 1px;
+	background-color:#e6e7e8;}
+	
+	
+.educaciononline{
+	width:222px;
+	
+	border:#666 solid 1pz;
+	background-color:#e6e7e8;
+	}
+
+.tit_educaciononline{
+	padding:5px 5px 3px 9px;
+	border-bottom:#27779b solid 1px;
+	background-color:#e6e7e8;}
+	
+.asociese{
+	padding-top:6px;}
+	
+/*-------COLUMNAS sitio gral ----*/
+
+.col1grande{float:left; width:690px; }
+
+.colanchototal{float:left; width:937px; }
+
+.sidebar{float:left; width:225px; margin-right:16px;}
+
+.contenedorarticulos{
+	float:left;}
+
+.box{
+	float:left;
+	width:485px;}
+	
+.lineapuntos{
+	border-bottom:#CCC dotted 1px;}
+.articulo{
+	width:400px;
+	border-bottom:#CCC dotted 1px;
+	padding:5px;}
+	
+.tit_bibliografiaprofesionales{
+	padding:7px 3px 7px 9px;
+	border-bottom:#27779b solid 1px;
+	background-color:#dadada;}
+
+/*---------- EVENTOS y CONGRESOS -----------*/	
+
+.eventocongreso{
+	margin-bottom:20px;
+	min-height:70px;}
+	
+	/*---------- VIDEOS -----------*/	
+
+.videos{
+	margin-bottom:20px;
+	margin-top:20px;
+	min-height:200px;
+	width:165px;
+	}
+
+/*---------- SPACERS -----------*/	
+.20pix{
+	height:20px;}
+	
+	
+.pad_right_ch{
+	padding-right:9px;}
